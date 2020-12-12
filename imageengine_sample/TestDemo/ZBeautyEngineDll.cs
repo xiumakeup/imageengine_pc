@@ -74,6 +74,9 @@ namespace TestDemo
         private static extern void Beauty_SetFilterRatio(IntPtr handle, int filterRatio);
 
         [DllImport("XIUSDK_BeautyEngine.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, ExactSpelling = true)]
+        private static extern void Beauty_SetSkinDetectionEnable(IntPtr handle, int skinDetectionEnable);
+
+        [DllImport("XIUSDK_BeautyEngine.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, ExactSpelling = true)]
         private static extern void Beauty_SetDefreckleAutoEnable(IntPtr handle, int defreckleAutoEnable);
 
         [DllImport("XIUSDK_BeautyEngine.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode, ExactSpelling = true)]

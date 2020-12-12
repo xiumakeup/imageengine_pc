@@ -99,6 +99,8 @@ ZBEAUTY_API void Beauty_ClearParams(BeautyHandle handle);
 ZBEAUTY_API void Beauty_SetFacePoints(BeautyHandle handle, int faceCount, int points[]);
 /// softenRatio, reference value: 60
 ZBEAUTY_API void Beauty_SetSoftenRatio(BeautyHandle handle, int softenRatio);
+/// skinDetectionEnable, when doing soften, do skinDetection as an option; enable: 1, disable:0
+ZBEAUTY_API void Beauty_SetSkinDetectionEnable(BeautyHandle handle, int skinDetectionEnable);
 /// writenRatio, reference value: 20
 ZBEAUTY_API void Beauty_SetWhitenRatio(BeautyHandle handle,int whitenRatio);
 /// filterID, reference value: 0~36
