@@ -21,7 +21,6 @@
  Description:  beautyEngine sdk 包含人脸美化模块/滤镜模块
  Author:       xiusdk
  Version:      V1.2
- Date:         20200101-20231230
  qq group:     567648913(加群获取最新信息)
 *****************************************************************************/
 #ifndef XIUSDK_BeautyEngine_h

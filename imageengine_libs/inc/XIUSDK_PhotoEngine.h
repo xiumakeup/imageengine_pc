@@ -21,7 +21,6 @@
  Description:  photoEngine sdk 包含图像美化模块/滤镜模块
  Author:       xiusdk
  Version:      V1.2
- Date:         20190101-
  qq group:     567648913(加群获取最新信息)
  *****************************************************************************/
 #ifndef XIUSDK_PhotoEngine_h
